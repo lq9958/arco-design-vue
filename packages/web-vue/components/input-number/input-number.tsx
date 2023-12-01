@@ -23,6 +23,7 @@ import { getKeyDownHandler, KEYBOARD_KEY } from '../_utils/keyboard';
 
 type StepMethods = 'minus' | 'plus';
 
+const FIRST_DELAY = 800;
 const SPEED = 150;
 
 NP.enableBoundaryChecking(false);
@@ -149,11 +150,19 @@ export default defineComponent({
     /**
      * @zh 只读
      * @en Readonly
-     * @version 3.33.1
+     * @version 2.33.1
      */
     readOnly: {
       type: Boolean,
       default: false,
+    },
+    /**
+     * @zh 内部 input 元素的属性
+     * @en Attributes of inner input elements
+     * @version 2.52.0
+     */
+    inputAttrs: {
+      type: Object,
     },
   },
   emits: {
@@ -400,7 +409,7 @@ export default defineComponent({
       if (needRepeat) {
         repeatTimer = window.setTimeout(
           () => (event.target as HTMLElement).dispatchEvent(event),
-          SPEED
+          repeatTimer ? SPEED : FIRST_DELAY
         );
       }
     };
@@ -609,6 +618,7 @@ export default defineComponent({
             'aria-valuemax': props.max,
             'aria-valuemin': props.min,
             'aria-valuenow': _value.value,
+            ...props.inputAttrs,
           }}
           onInput={handleInput}
           onFocus={handleFocus}

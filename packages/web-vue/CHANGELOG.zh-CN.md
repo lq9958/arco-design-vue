@@ -2,6 +2,127 @@
 changelog: true
 ```
 
+## 2.53.3
+
+`2023-11-24`
+
+### 🐛 问题修复
+
+- **input-tag:** 修复 `read-only` 下仍然能被删除的问题 ([#2824](https://github.com/arco-design/arco-design-vue/pull/2824))
+- **date-picker:** 修复日期与format不一致导致出现无效日期 ([#2789](https://github.com/arco-design/arco-design-vue/pull/2789))
+
+
+## 2.53.2
+
+`2023-11-10`
+
+### 🐛 问题修复
+
+- **watermark:** 修复样式按需加载报错问题 ([#2787](https://github.com/arco-design/arco-design-vue/pull/2787))
+
+
+## 2.53.1
+
+`2023-11-08`
+
+### 🐛 问题修复
+
+- **watermark:** 修复组件入口未暴露问题 ([#2782](https://github.com/arco-design/arco-design-vue/pull/2782))
+
+
+## 2.53.0
+
+`2023-11-03`
+
+### 🆕 新增功能
+
+- **watermark:** 新增水印组件 ([#2741](https://github.com/arco-design/arco-design-vue/pull/2741))
+- **calendar:** 新增 `header` 和 `default` 插槽 ([#2674](https://github.com/arco-design/arco-design-vue/pull/2674))
+
+### 🐛 问题修复
+
+- **descriptions:** 修复 `DescriptionsItem` 组件 `span` 属性失效的问题 ([#2765](https://github.com/arco-design/arco-design-vue/pull/2765))
+
+
+## 2.52.1
+
+`2023-10-13`
+
+### 🐛 问题修复
+
+- **mention:** 修复在text-area下disabled属性无法正常工作的问题 ([#2723](https://github.com/arco-design/arco-design-vue/pull/2723))
+
+### 💎 功能优化
+
+- **switch:** 优化对 `undefined` 和 `null` 值的处理 ([#2737](https://github.com/arco-design/arco-design-vue/pull/2737))
+
+
+## 2.52.0
+
+`2023-09-22`
+
+### 🆕 新增功能
+
+- **input-number:** 增加 `input-attrs` 属性 ([#2716](https://github.com/arco-design/arco-design-vue/pull/2716))
+- **transfer:** 增加操作图标插槽 ([#2708](https://github.com/arco-design/arco-design-vue/pull/2708))
+- **avatar:** 添加了新的 `ObjectFit` 属性 ([#2691](https://github.com/arco-design/arco-design-vue/pull/2691))
+- **auto-complete:** 增加下拉菜单滚动事件 ([#2635](https://github.com/arco-design/arco-design-vue/pull/2635))
+
+### 🐛 问题修复
+
+- **date-picker:** 修复范围选择器操作箭头显示错误问题 ([#2712](https://github.com/arco-design/arco-design-vue/pull/2712))
+
+
+## 2.51.2
+
+`2023-09-15`
+
+### 🐛 问题修复
+
+- **form:** 修复field为数组对象时滚动报错问题 ([#2707](https://github.com/arco-design/arco-design-vue/pull/2707))
+
+
+## 2.51.1
+
+`2023-09-08`
+
+### 🐛 问题修复
+
+- **cascader:** 修复开启虚拟列表时空状态不显示 ([#2686](https://github.com/arco-design/arco-design-vue/pull/2686))
+
+
+## 2.51.0
+
+`2023-09-01`
+
+### ⚠️ 重点注意
+
+- **form:** `form-item` 渲染元素增加 `id` 属性，请注意对原始网页的影响
+
+### 🆕 新增功能
+
+- **form:** 新增滚动到指定表单字段 ([#2680](https://github.com/arco-design/arco-design-vue/pull/2680))
+- **table:** 支持显示空子树 ([#2673](https://github.com/arco-design/arco-design-vue/pull/2673))
+- **select:** 支持`boolean` 类型 ([#2661](https://github.com/arco-design/arco-design-vue/pull/2661))
+
+### 🐛 问题修复
+
+- **typography:** 修复按需导入时缺少相关组件样式的问题 ([#2682](https://github.com/arco-design/arco-design-vue/pull/2682))
+
+
+## 2.50.2
+
+`2023-08-25`
+
+### 🐛 问题修复
+
+- 修复虚拟滚动 scrollTop 位置不对 ([#2665](https://github.com/arco-design/arco-design-vue/pull/2665))
+
+### 💎 功能优化
+
+- **input-number:** 优化步长按钮的长按效果 ([#2668](https://github.com/arco-design/arco-design-vue/pull/2668))
+
+
 ## 2.50.1
 
 `2023-08-18`

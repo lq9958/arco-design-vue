@@ -2,6 +2,24 @@
 changelog: true
 ```
 
+## 2.51.2
+
+`2023-09-15`
+
+### 🐛 BugFix
+
+- scroll-to-first-error throws error in nested form items ([#2707](https://github.com/arco-design/arco-design-vue/pull/2707))
+
+
+## 2.51.0
+
+`2023-09-01`
+
+### 🆕 Feature
+
+- add scroll into view to the field ([#2680](https://github.com/arco-design/arco-design-vue/pull/2680))
+
+
 ## 2.44.2
 
 `2023-03-17`

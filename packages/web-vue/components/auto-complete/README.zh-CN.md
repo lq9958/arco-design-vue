@@ -37,6 +37,8 @@ description: 输入框的自动补全功能。
 |search|用户搜索时触发|value: `string`||
 |select|选择选项时触发|value: `string`||
 |clear|用户点击清除按钮时触发|ev: `Event`|2.23.0|
+|dropdown-scroll|下拉菜单发生滚动时触发|ev: `Event`|2.52.0|
+|dropdown-reach-bottom|下拉菜单滚动到底部时触发|ev: `Event`|2.52.0|
 ### `<auto-complete>` Methods
 
 |方法名|描述|参数|返回值|版本|
