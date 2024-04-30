@@ -2,6 +2,33 @@
 changelog: true
 ```
 
+## 2.54.3
+
+`2024-01-19`
+
+### 🐛 BugFix
+
+- fix spelling mistakes ([#2924](https://github.com/arco-design/arco-design-vue/pull/2924))
+
+
+## 2.54.2
+
+`2024-01-11`
+
+### 💅 Style
+
+- Fix overlapping styles of neighboring components in input-group ([#2889](https://github.com/arco-design/arco-design-vue/pull/2889))
+
+
+## 2.54.1
+
+`2023-12-28`
+
+### 🆕 Feature
+
+- Enhance the input-password props ([#2784](https://github.com/arco-design/arco-design-vue/pull/2784))
+
+
 ## 2.44.2
 
 `2023-03-17`

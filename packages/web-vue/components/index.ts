@@ -49,6 +49,8 @@ export { default as Collapse, CollapseItem } from './collapse';
 export type { CollapseInstance, CollapseItemInstance } from './collapse';
 export { default as Comment } from './comment';
 export type { CommentInstance } from './comment';
+export { default as ColorPicker } from './color-picker';
+export type { ColorPickerInstance } from './color-picker';
 export { default as ConfigProvider } from './config-provider';
 export type { ConfigProviderInstance } from './config-provider';
 export {
@@ -332,6 +334,8 @@ export type {
 } from './upload';
 export { default as OverflowList } from './overflow-list';
 export type { OverflowListInstance } from './overflow-list';
+export { default as VerificationCode } from './verification-code';
+export type { VerificationCodeInstance } from './verification-code';
 export { default as Watermark } from './watermark';
 export type { WatermarkInstance } from './watermark';
 // hooks

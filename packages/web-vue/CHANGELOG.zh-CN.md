@@ -2,6 +2,141 @@
 changelog: true
 ```
 
+## 2.55.1
+
+`2024-03-29`
+
+### 🐛 问题修复
+
+- **empty:** 修复属性自动继承的错误 ([#3048](https://github.com/arco-design/arco-design-vue/pull/3048))
+- **trigger:** 修正位置的弹出动画方向 ([#3045](https://github.com/arco-design/arco-design-vue/pull/3045))
+- **color-picker:** 修复双向绑定不生效问题 ([#3030](https://github.com/arco-design/arco-design-vue/pull/3030))
+- **color-picker:** 修复文案错误 ([#3028](https://github.com/arco-design/arco-design-vue/pull/3028))
+
+### 💅 样式更新
+
+- **tree:** 修复scrollHeight计算异常问题 ([#3044](https://github.com/arco-design/arco-design-vue/pull/3044))
+
+
+## 2.55.0
+
+`2024-03-15`
+
+### 🆕 新增功能
+
+- **tree-select:** 新增 `input-value` 相关属性 ([#3024](https://github.com/arco-design/arco-design-vue/pull/3024))
+- **tree:** `title` 插槽新增 `title` 参数 ([#3024](https://github.com/arco-design/arco-design-vue/pull/3024))
+- **color-picker:** 新增颜色选择器 ([#2958](https://github.com/arco-design/arco-design-vue/pull/2958))
+
+### 💅 样式更新
+
+- **tabs:** 修复 title 过渡动画效果 ([#3008](https://github.com/arco-design/arco-design-vue/pull/3008))
+
+
+## 2.54.6
+
+`2024-03-01`
+
+### 🐛 问题修复
+
+- **input-number:** 修复步进按钮与 suffix/append 的样式重叠 ([#3005](https://github.com/arco-design/arco-design-vue/pull/3005))
+- **collapse:** 解决 `vue` 保留属性警告 ([#2997](https://github.com/arco-design/arco-design-vue/pull/2997))
+- **transfer:** 修复 disabled 属性不生效问题 ([#2996](https://github.com/arco-design/arco-design-vue/pull/2996))
+- **tree:** 解决无效的属性名称控制台警告问题 ([#2995](https://github.com/arco-design/arco-design-vue/pull/2995))
+
+### 💅 样式更新
+
+- **modal:** 修复遮罩层 fade-modal 过渡动画在进入时不生效问题 ([#3007](https://github.com/arco-design/arco-design-vue/pull/3007))
+
+
+## 2.54.5
+
+`2024-02-21`
+
+### 🐛 问题修复
+
+- **menu:** 修复警告 “Invalid prop name: key is a reserved property.” ([#2978](https://github.com/arco-design/arco-design-vue/pull/2978))
+- **date-picker:** 重构日期 utility 函数和 WeekPicker，以正确显示所选星期 ([#2970](https://github.com/arco-design/arco-design-vue/pull/2970))
+- **input-number:** 修复双向绑定失效 ([#2961](https://github.com/arco-design/arco-design-vue/pull/2961))
+
+
+## 2.54.4
+
+`2024-02-02`
+
+### 🐛 问题修复
+
+- **table:** 修复表格虚拟列表下不显示 empty  问题 ([#2949](https://github.com/arco-design/arco-design-vue/pull/2949))
+- **watermark:** 修复字体颜色不生效问题 ([#2942](https://github.com/arco-design/arco-design-vue/pull/2942))
+- **input-number:** 修复 change 事件触发逻辑 ([#2915](https://github.com/arco-design/arco-design-vue/pull/2915))
+
+
+## 2.54.3
+
+`2024-01-19`
+
+### 🐛 问题修复
+
+- **rate:** 修复在`nuxt`中图标元素缺失的问题 ([#2930](https://github.com/arco-design/arco-design-vue/pull/2930))
+- **avatar:** 修复头像组气泡中部分头像不显示问题 ([#2925](https://github.com/arco-design/arco-design-vue/pull/2925))
+- **image:** 修复错误的类型定义和文档说明 ([#2924](https://github.com/arco-design/arco-design-vue/pull/2924))
+- **image:** 修正单词拼写错误 ([#2924](https://github.com/arco-design/arco-design-vue/pull/2924))
+- **input:** 修正文档单词拼写错误 ([#2924](https://github.com/arco-design/arco-design-vue/pull/2924))
+
+
+## 2.54.2
+
+`2024-01-11`
+
+### 🐛 问题修复
+
+- **table:** 修复 `span-method` 在超出行列数后报错的问题 ([#2914](https://github.com/arco-design/arco-design-vue/pull/2914))
+
+### 💎 功能优化
+
+- **select:** 下拉选择器添加选中效果 ([#2895](https://github.com/arco-design/arco-design-vue/pull/2895))
+
+### 💅 样式更新
+
+- **input:** 修复 input-group 相邻组件样式叠加时的问题 ([#2889](https://github.com/arco-design/arco-design-vue/pull/2889))
+
+
+## 2.54.1
+
+`2023-12-28`
+
+### 🆕 新增功能
+
+- **watermark:** 水印字体色跟随主题变化 ([#2790](https://github.com/arco-design/arco-design-vue/pull/2790))
+- **input:** 新增密码框密码可见性相关属性 ([#2784](https://github.com/arco-design/arco-design-vue/pull/2784))
+
+### 🐛 问题修复
+
+- **select:** 修复 `defaultPopupVisible` 失效的问题 ([#2881](https://github.com/arco-design/arco-design-vue/pull/2881))
+
+
+## 2.54.0
+
+`2023-12-15`
+
+### 🆕 新增功能
+
+- 新增验证码输入组件 ([#2823](https://github.com/arco-design/arco-design-vue/pull/2823))
+
+### 🐛 问题修复
+
+- **date-picker:** 修复日期范围部分模式下箭头点击问题 ([#2865](https://github.com/arco-design/arco-design-vue/pull/2865))
+- **pagination:** 修复页码可能为 `0` 的问题 ([#2828](https://github.com/arco-design/arco-design-vue/pull/2828))
+
+### 💎 功能优化
+
+- **cascader:** 修改 `multiple` 和 `pathMode` 时会触发绑定值的改变 ([#2867](https://github.com/arco-design/arco-design-vue/pull/2867))
+
+### 🆎 类型修正
+
+- **button:** TS类型优化 ([#2825](https://github.com/arco-design/arco-design-vue/pull/2825))
+
+
 ## 2.53.3
 
 `2023-11-24`

@@ -372,6 +372,8 @@ export default defineComponent({
     /**
      * @zh 节点开始拖拽
      * @en Node starts dragging
+     * @param {DragEvent} ev
+     * @param {TreeNodeData} node
      */
     'dragStart': (ev: DragEvent, node: TreeNodeData) => true,
     /**
@@ -439,6 +441,7 @@ export default defineComponent({
    * @zh 标题
    * @en Title
    * @slot title
+   * @binding {string} title
    */
   setup(props, { emit, slots }) {
     const {

@@ -93,6 +93,8 @@ export default {
     overflow: 'OverflowList',
     scrollbar: 'Scrollbar',
     watermark: 'Watermark',
+    verificationCode: 'VerificationCode',
+    colorPicker: 'ColorPicker',
   },
   footer: {
     design: 'Design',

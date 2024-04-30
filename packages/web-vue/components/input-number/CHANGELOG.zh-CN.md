@@ -2,6 +2,33 @@
 changelog: true
 ```
 
+## 2.54.6
+
+`2024-03-01`
+
+### 🐛 问题修复
+
+- 修复步进按钮与 suffix/append 的样式重叠 ([#3005](https://github.com/arco-design/arco-design-vue/pull/3005))
+
+
+## 2.54.5
+
+`2024-02-21`
+
+### 🐛 问题修复
+
+- 修复双向绑定失效 ([#2961](https://github.com/arco-design/arco-design-vue/pull/2961))
+
+
+## 2.54.4
+
+`2024-02-02`
+
+### 🐛 问题修复
+
+- 修复 change 事件触发逻辑 ([#2915](https://github.com/arco-design/arco-design-vue/pull/2915))
+
+
 ## 2.52.0
 
 `2023-09-22`

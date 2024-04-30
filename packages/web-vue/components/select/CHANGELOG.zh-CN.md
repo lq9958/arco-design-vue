@@ -2,6 +2,24 @@
 changelog: true
 ```
 
+## 2.54.2
+
+`2024-01-11`
+
+### 💎 功能优化
+
+- 下拉选择器添加选中效果 ([#2895](https://github.com/arco-design/arco-design-vue/pull/2895))
+
+
+## 2.54.1
+
+`2023-12-28`
+
+### 🐛 问题修复
+
+- 修复 `defaultPopupVisible` 失效的问题 ([#2881](https://github.com/arco-design/arco-design-vue/pull/2881))
+
+
 ## 2.51.0
 
 `2023-09-01`

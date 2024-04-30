@@ -2,6 +2,38 @@
 changelog: true
 ```
 
+## 2.55.1
+
+`2024-03-29`
+
+### 💅 样式更新
+
+- 修复scrollHeight计算异常问题 ([#3044](https://github.com/arco-design/arco-design-vue/pull/3044))
+
+
+## 2.55.0
+
+`2024-03-15`
+
+### 🆕 新增功能
+
+- `title` 插槽新增 `title` 参数 ([#3024](https://github.com/arco-design/arco-design-vue/pull/3024))
+
+
+## 2.54.6
+
+`2024-03-01`
+
+### 🐛 问题修复
+
+- 解决无效的属性名称控制台警告问题 ([#2995](https://github.com/arco-design/arco-design-vue/pull/2995))
+
+
+## 2.54.3
+
+`2024-01-19`
+
+
 ## 2.45.0
 
 `2023-04-07`

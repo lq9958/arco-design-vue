@@ -16,6 +16,7 @@ import Carousel, { CarouselItem } from './carousel';
 import Cascader, { CascaderPanel } from './cascader';
 import Checkbox, { CheckboxGroup } from './checkbox';
 import Collapse, { CollapseItem } from './collapse';
+import ColorPicker from './color-picker';
 import Comment from './comment';
 import ConfigProvider from './config-provider';
 import DatePicker, {
@@ -96,6 +97,7 @@ import Typography, {
 } from './typography';
 import Upload from './upload';
 import OverflowList from './overflow-list';
+import VerificationCode from './verification-code';
 import Watermark from './watermark';
 
 import { useFormItem } from './_hooks/use-form-item';
@@ -115,6 +117,7 @@ const components: Record<string, Plugin> = {
   Carousel,
   Collapse,
   Comment,
+  ColorPicker,
   Descriptions,
   Empty,
   Image,
@@ -173,6 +176,7 @@ const components: Record<string, Plugin> = {
   Icon,
   OverflowList,
   Watermark,
+  VerificationCode,
 };
 
 const install = (app: App, options?: ArcoOptions) => {
